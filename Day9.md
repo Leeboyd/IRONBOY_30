@@ -64,7 +64,7 @@ class Widget {
 當你這樣做的時候，也就表示承認在 JavaScript 使用 ES6 Class 是一件很尷尬的事，一種 **明明知道 JS 是動態 context，卻硬是靜態綁定 context**，只為了繞過或捨棄 `prototype-chain` 模式；更進一步說，基於 ES6 Class 僅作為語法糖衣，底層還是 `prototype-chain` ，會分享狀態、方法，很多靜態繼承的特色其實很難在 JS 中實現，如 private 關鍵字。
 
 ## 小結
-在使用一個新語法之前，先行研究與了解才能判斷是否適合，ES6 是一個好的模式嗎？我認為不是，如果從別的語言轉來的，我認爲反而造成混亂，而使用綁定的方式，硬是調整成預期行為，其實是沒有意義的，不如熟悉 JS 的的動態特性以及彈性，我認為這是比較正確的心態。
+在使用一個新語法之前，先行研究與了解才能判斷是否適合，ES6 Class 是一個好的模式嗎？我認為不是，如果從別的語言轉來的，我認爲反而造成混亂，為了調整成預期行為，硬是使用綁定的方式，其實是沒有意義的，不如熟悉 JS 的的動態特性以及彈性，我認為這是比較正確的心態。
 
 ## 參考資料
 [^1]: Jaswinder asked [when to use a Class in JavaScript vs a factory method and also composition vs. inheritance](https://via.intercom-mail-200.com/e?ob=FRzAGBR3lVktCI0rBBKLzXoZAvjIxHabYGfROwzYt%2BDR00U5thJIfMxT2e9g9n3X&h=e83fcf36f486fc13cbc9089782dc96c175b34bd7-13220203316).
