@@ -1,32 +1,35 @@
 # 2017第九屆 IT 邦鐵人賽
 
-參賽題目 Good Morning, Functional JS (Day 30)
+參賽題目: Good Morning, Functional JS (Day 30)
 ===
 > 標題 Good Morning，其實是希望本系列能為 Functional Programming 學習雲霧中透進一絲微光
+
 ![Flaming Deku Stick by Tatiana Bischak](https://cdn.dribbble.com/users/844597/screenshots/3542008/ocarinaoftimeweapon_dekustick_final_1x.png)
 
 
 會寫本系列文章，主要是因為想要學習 Functional Programming，也想對 JS 有更深入的了解，內容以探討 Kyle Simpson. [***Functional-Light JavaScript***](https://github.com/getify/Functional-Light-JS) 一書內容為主軸，
 
 ![](https://i.imgur.com/dIHQ3kp.png)
+
 算是邊讀邊翻譯，也算給自己做筆記，但並不是逐字翻譯，而是以原文的概念加上我自己的理解，難免會與原文失真，下方我有留資訊歡迎討論。
 
 以下是我參考的資訊，供有興趣讀者也參考：
-### Frisby [***Mostly Adequate Guide to Functional Programming***](https://github.com/MostlyAdequate/mostly-adequate-guide/blob/master/README.md)
+### 1. Frisby [***Mostly Adequate Guide to Functional Programming***](https://github.com/MostlyAdequate/mostly-adequate-guide/blob/master/README.md)
 
-中譯本：[JS 函数式编程指南](https://www.gitbook.com/book/llh911001/mostly-adequate-guide-chinese/details)
+> 中譯本：[JS 函数式编程指南](https://www.gitbook.com/book/llh911001/mostly-adequate-guide-chinese/details)
+
 ![](https://i.imgur.com/pTPyqWk.png)
 
 以生動的舉例解說各種 FP 概念，不過內文舉例非原生 JS ，有使用函式庫。
 
-### 阮一峰 [函数式编程入门教程](http://www.ruanyifeng.com/blog/2017/02/fp-tutorial.html)
+### 2. 阮一峰 [函数式编程入门教程](http://www.ruanyifeng.com/blog/2017/02/fp-tutorial.html)
 深入淺出談 Functional Programing 搭配範例。
 
-### Functional Programing 名詞大全
+### 3. Functional Programing 名詞大全
 快速查詢專有名詞的定義與簡單範例
 [Functional Programming Jargon](https://github.com/hemanth/functional-programming-jargon#functor)
 
-### Functional Programing 相關函式庫
+### 4. Functional Programing 相關函式庫
 * [Ramda](http://ramdajs.com/)
 * [lodash/fp](https://github.com/lodash/lodash/wiki/FP-Guide)
 * [functional.js](http://functionaljs.com/)
