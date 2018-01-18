@@ -63,6 +63,17 @@ class Widget {
 
 當你這樣做的時候，也就表示承認在 JavaScript 使用 ES6 Class 是一件很尷尬的事，一種 **明明知道 JS 是動態 context，卻硬是靜態綁定 context**，只為了繞過或捨棄 `prototype-chain` 模式；更進一步說，基於 ES6 Class 僅作為語法糖衣，底層還是 `prototype-chain` ，會分享狀態、方法，很多靜態繼承的特色其實很難在 JS 中實現，如 private 關鍵字。
 
+### 例子再補充
+本例摘自：[3 Different Kinds of Prototypal Inheritance: ES6+ Edition](https://medium.com/javascript-scene/3-different-kinds-of-prototypal-inheritance-es6-edition-32d777fa16c9)
+![](https://i.imgur.com/lPByB1D.png)
+* [物件寫法](https://jsbin.com/qovoxelaxu/edit?js)
+* [建構式寫法](https://jsbin.com/babebatixo/edit?js)
+* [ES6 Class寫法](https://jsbin.com/kihugezuci/edit?js)
+
+* 為什麼 object methods JSON.stringify 印不出 
+[json.stringify does not process object methods
+](https://stackoverflow.com/questions/18089033/json-stringify-does-not-process-object-methods)
+
 ## 小結
 在使用一個新語法之前，先行研究與了解才能判斷是否適合，ES6 Class 是一個好的模式嗎？我認為不是，如果從別的語言轉來的，我認爲反而造成混亂，為了調整成預期行為，硬是使用綁定的方式，其實是沒有意義的，不如熟悉 JS 的的動態特性以及彈性，我認為這是比較正確的心態。
 
